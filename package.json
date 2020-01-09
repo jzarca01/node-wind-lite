@@ -1,0 +1,25 @@
+{
+  "name": "node-wind-lite",
+  "version": "1.0.0",
+  "description": "Api Wrapper for Wind bikes and scooters",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c rollup.config.js",
+    "prepare": "npm run build"
+  },
+  "author": "Jérémie Zarca <jeremie.zarca@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "faker": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.7.1",
+    "rollup": "^1.27.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.1.2"
+  }
+}
