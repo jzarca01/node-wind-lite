@@ -22,6 +22,8 @@ await wind.getBoardsNearby({
 });
 ```
 
+**When you're not logged in, you can only see the 3 nearest boards**
+
 ### Get bikes nearby
 
 ```javascript
@@ -30,6 +32,8 @@ await wind.getBikesNearby({
   longitude
 });
 ```
+
+**When you're not logged in, you can only see the 3 nearest bikes**
 
 ### Get parking ports nearby
 
